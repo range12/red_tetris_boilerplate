@@ -14,6 +14,31 @@ Because we use React, Redux, Node.js and Socket.io, we had to define 3 kinds of 
 * Redux ones, but instead of just testing pure functions, we defined a middleware to test state’s impact after one or many actions.
 * Redux/Socket.io/Node.js, same as before, we use the same middleware but this time we can test state’s updates after socketio messages round trip.
 
+## Editor Configuration
+
+### Visual Studio
+
+First of all, you have to install 3 extension:
+- ESLint
+- Flow Language Support
+- Prettier
+- Prettify JSON
+
+In your settings add
+```json
+{
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true,
+  "javascript.validate.enable": false,
+  "javascript.format.enable": false
+}
+```
+
+And finally install the flow binary:
+```sh
+[sudo] npm install -g flow-bin
+```
+
 ### Install
 
 Install [node](https://nodejs.org/en/) first. After that:
