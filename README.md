@@ -16,7 +16,7 @@ Because we use React, Redux, Node.js and Socket.io, we had to define 3 kinds of 
 
 ## Editor Configuration
 
-### Visual Studio
+### Visual Studio Code
 
 First of all, you have to install 3 extension:
 - ESLint
